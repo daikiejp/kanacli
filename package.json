@@ -1,0 +1,26 @@
+{
+  "name": "kanacli",
+  "version": "0.1.0",
+  "description": "Command Cli to learn Hiragana & Katakana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/daikiejp/kanacli.git"
+  },
+  "keywords": [
+    "kanacli",
+    "hiragana",
+    "katakana",
+    "kana",
+    "japanese"
+  ],
+  "author": "Danny Davila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daikiejp/kanacli/issues"
+  },
+  "homepage": "https://github.com/daikiejp/kanacli#readme"
+}
