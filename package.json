@@ -2,7 +2,6 @@
   "name": "kanacli",
   "version": "0.1.0",
   "description": "Command Cli to learn Hiragana & Katakana",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/daikiejp/kanacli/issues"
   },
-  "homepage": "https://github.com/daikiejp/kanacli#readme"
+  "homepage": "https://github.com/daikiejp/kanacli#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "@types/inquirer": "^9.0.7"
+  },
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^9.2.12"
+  }
 }
