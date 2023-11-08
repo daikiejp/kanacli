@@ -56,10 +56,12 @@ function ask() {
     // Hiragana/Katakana Quiz
     inquirer.prompt(shuffledQuestions).then((answers) => {
       console.log("\n=== Answers ===");
-
+      //  Evaluate
       var evaluate = "";
+      var score = 0;
       for (let key in answers) {
         if (key.slice(1) == answers[key]) {
+          score++;
           evaluate = "✅";
         } else {
           evaluate = "❌";
@@ -72,7 +74,23 @@ function ask() {
           answers[key]
         );
       }
+      // Scoring
+      console.log(
+        "\n✨ Correct Answers:",
+        score + "/" + Object.keys(answers).length
+      );
+      const percent = (score * 100) / Object.keys(answers).length;
+      if (percent > 90) {
+        console.log("\n💮 たいへんよくできました (Excellent work!!!)");
+      } else if (percent > 70) {
+        console.log("\nよくできました (Good job!)");
+      } else if (percent > 60) {
+        console.log("\nもうすこしがんばりましょう (Needs some effort!)");
+      } else {
+        console.log("\nがんばりましょう (Needs effort!)");
+      }
     });
   });
 }
+
 ask();
