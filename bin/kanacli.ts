@@ -57,7 +57,21 @@ function ask() {
     inquirer.prompt(shuffledQuestions).then((answers) => {
       console.log("\n=== Answers ===");
 
-      console.log(answers);
+      var evaluate = "";
+      for (let key in answers) {
+        if (key.slice(1) == answers[key]) {
+          evaluate = "✅";
+        } else {
+          evaluate = "❌";
+        }
+        console.log(
+          evaluate,
+          "Hiragana:",
+          key.slice(0, 1) + "(" + key.slice(1) + ")",
+          "You picked:",
+          answers[key]
+        );
+      }
     });
   });
 }
