@@ -45,3 +45,20 @@ const startQuestions = [
     default: "5",
   },
 ];
+
+function ask() {
+  inquirer.prompt(startQuestions).then((answers) => {
+    const shuffledQuestions = shuffle(answers.kanaSelected).slice(
+      0,
+      answers.kanaNumber
+    );
+
+    // Hiragana/Katakana Quiz
+    inquirer.prompt(shuffledQuestions).then((answers) => {
+      console.log("\n=== Answers ===");
+
+      console.log(answers);
+    });
+  });
+}
+ask();
