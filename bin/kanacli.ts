@@ -20,3 +20,28 @@ const shuffle = (arr: Kana[]) => {
   }
   return arr;
 };
+
+const startQuestions = [
+  {
+    type: "list",
+    name: "kanaSelected",
+    message: "What kana will you learn?",
+    choices: [
+      { name: "Hiragana", value: hiragana },
+      //   { name: "Katakana", value: katakana },
+    ],
+    default: "hiragana",
+  },
+  {
+    type: "list",
+    name: "kanaNumber",
+    message: "How much kana will you learn?",
+    choices: [
+      { name: "5", value: 5 },
+      { name: "10", value: 10 },
+      { name: "20", value: 20 },
+      { name: "46", value: 46 },
+    ],
+    default: "5",
+  },
+];
