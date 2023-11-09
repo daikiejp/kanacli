@@ -6,6 +6,8 @@
 
 > CLI for learn Hiragana and Katana.
 
+![](screenshot.png)
+
 ### 🏠 [Homepage](https://github.com/daikiejp/kanacli)
 
 ## Install

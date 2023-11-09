@@ -1,6 +1,6 @@
 {
   "name": "kanacli",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Command Cli to learn Hiragana & Katakana",
   "scripts": {
     "start": "node dist/bin/kanacli.js",
