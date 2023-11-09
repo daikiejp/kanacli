@@ -7,6 +7,9 @@
     "build": "tsc --build",
     "clean": "rm -rf dist"
   },
+  "bin": {
+    "kanacli": "dist/bin/kanacli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/daikiejp/kanacli.git"
