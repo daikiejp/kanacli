@@ -13,7 +13,7 @@
 ## Install
 
 ```sh
-npx kanacli
+npx kanacli@latest
 ```
 
 ## Status
@@ -22,7 +22,7 @@ We are currently updating. Stay tuned.
 
 ## Latest version:
 
-v0.1.1 (alpha version)
+v0.2.1 (alpha version)
 
 ## Author
 
