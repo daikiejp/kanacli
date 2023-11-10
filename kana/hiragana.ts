@@ -111,7 +111,7 @@ const hiragana = [
   },
   {
     type: "input",
-    name: "ふ,hu",
+    name: "ふhu",
     message: "What is the romaji of ふ?",
   },
   {

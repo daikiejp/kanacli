@@ -1,6 +1,6 @@
 {
   "name": "kanacli",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Command Cli to learn Hiragana & Katakana",
   "scripts": {
     "start": "node dist/bin/kanacli.js",
@@ -8,8 +8,16 @@
     "clean": "rm -rf dist"
   },
   "bin": {
-    "kanacli": "dist/bin/kanacli.js"
+    "kanacli": "./dist/bin/kanacli.js"
   },
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "screenshot.png"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/daikiejp/kanacli.git"
