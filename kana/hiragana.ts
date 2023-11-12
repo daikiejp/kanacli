@@ -229,6 +229,56 @@ const hiragana = [
     name: "んn",
     message: "What is the romaji of ん?",
   },
+  {
+    type: "input",
+    name: "がga",
+    message: "What is the romaji of が",
+  },
+  {
+    type: "input",
+    name: "ぎgi",
+    message: "What is the romaji of ぎ",
+  },
+  {
+    type: "input",
+    name: "ぐgu",
+    message: "What is the romaji of ぐ",
+  },
+  {
+    type: "input",
+    name: "げge",
+    message: "What is the romaji of げ",
+  },
+  {
+    type: "input",
+    name: "ごgo",
+    message: "What is the romaji of ご",
+  },
+  {
+    type: "input",
+    name: "ざza",
+    message: "What is the romaji of ざ",
+  },
+  {
+    type: "input",
+    name: "じji",
+    message: "What is the romaji of じ",
+  },
+  {
+    type: "input",
+    name: "ずzu",
+    message: "What is the romaji of ず",
+  },
+  {
+    type: "input",
+    name: "ぜze",
+    message: "What is the romaji of ぜ",
+  },
+  {
+    type: "input",
+    name: "ぞzo",
+    message: "What is the romaji of ぞ",
+  },
 ];
 
 export default hiragana;

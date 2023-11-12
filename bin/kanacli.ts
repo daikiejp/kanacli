@@ -31,13 +31,19 @@ const startQuestions = [
   },
   {
     type: "list",
-    name: "kanaNumber",
+    name: "kanaRange",
     message: "How much kana will you learn?",
     choices: [
-      { name: "5", value: 5 },
-      { name: "10", value: 10 },
-      { name: "20", value: 20 },
-      { name: "46", value: 46 },
+      { name: "5 Basic Kana", value: { start: 0, end: 46, number: 5 } },
+      { name: "10 Basic Kana", value: { start: 0, end: 46, number: 10 } },
+      { name: "20 Basic Kana", value: { start: 0, end: 46, number: 20 } },
+      { name: "46 Basic Kana (Recommended)", value: { start: 0, end: 46 } },
+      { name: "25 Modified Kana", value: { start: 46, end: 56 } },
+      { name: "21 Basic Compounds Kana", value: 0 },
+      { name: "12 Modified Compounds Kana", value: 0 },
+      { name: "46 Basic Kana + 25 Modified Kana", value: 0 },
+      { name: "18 Unique Compounds Katakana", value: 0 },
+      { name: "Full Kana (Hardcore)", value: 0 },
     ],
     default: "5",
   },
@@ -45,9 +51,14 @@ const startQuestions = [
 
 function ask() {
   inquirer.prompt(startQuestions).then((answers) => {
-    const shuffledQuestions = shuffle(answers.kanaSelected).slice(
+    console.log(answers.kanaRange.start);
+    const kanaRange = answers.kanaSelected.slice(
+      answers.kanaRange.start,
+      answers.kanaRange.end
+    );
+    const shuffledQuestions = shuffle(kanaRange).slice(
       0,
-      answers.kanaNumber
+      answers.kanaRange.number
     );
 
     // Hiragana/Katakana Quiz
