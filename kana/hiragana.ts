@@ -51,6 +51,31 @@ const hiragana = [
   },
   {
     type: "input",
+    name: "さsa",
+    message: "What is the romaji of さ?",
+  },
+  {
+    type: "input",
+    name: "しsi",
+    message: "What is the romaji of し?",
+  },
+  {
+    type: "input",
+    name: "すsu",
+    message: "What is the romaji of す?",
+  },
+  {
+    type: "input",
+    name: "せse",
+    message: "What is the romaji of せ?",
+  },
+  {
+    type: "input",
+    name: "そso",
+    message: "What is the romaji of そ?",
+  },
+  {
+    type: "input",
     name: "たta",
     message: "What is the romaji of た?",
   },

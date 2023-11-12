@@ -6,10 +6,7 @@ console.log("\n 🌸 === Welcome to KanaCli === ⛩️");
 
 interface Kana {
   type: string;
-  name: {
-    hiragana: string;
-    romaji: string;
-  };
+  name: string;
   message: string;
 }
 
