@@ -38,7 +38,7 @@ const startQuestions = [
       { name: "10 Basic Kana", value: { start: 0, end: 46, number: 10 } },
       { name: "20 Basic Kana", value: { start: 0, end: 46, number: 20 } },
       { name: "46 Basic Kana (Recommended)", value: { start: 0, end: 46 } },
-      { name: "25 Modified Kana", value: { start: 46, end: 56 } },
+      { name: "25 Modified Kana", value: { start: 46, end: 71, number: 25 } },
       { name: "21 Basic Compounds Kana", value: 0 },
       { name: "12 Modified Compounds Kana", value: 0 },
       { name: "46 Basic Kana + 25 Modified Kana", value: 0 },
@@ -51,7 +51,6 @@ const startQuestions = [
 
 function ask() {
   inquirer.prompt(startQuestions).then((answers) => {
-    console.log(answers.kanaRange.start);
     const kanaRange = answers.kanaSelected.slice(
       answers.kanaRange.start,
       answers.kanaRange.end

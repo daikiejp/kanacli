@@ -279,6 +279,81 @@ const hiragana = [
     name: "ぞzo",
     message: "What is the romaji of ぞ",
   },
+  {
+    type: "input",
+    name: "だda",
+    message: "What is the romaji of だ",
+  },
+  {
+    type: "input",
+    name: "ぢdi",
+    message: "What is the romaji of ぢ",
+  },
+  {
+    type: "input",
+    name: "づzu",
+    message: "What is the romaji of づ",
+  },
+  {
+    type: "input",
+    name: "でde",
+    message: "What is the romaji of で",
+  },
+  {
+    type: "input",
+    name: "どdo",
+    message: "What is the romaji of ど",
+  },
+  {
+    type: "input",
+    name: "ばba",
+    message: "What is the romaji of ば",
+  },
+  {
+    type: "input",
+    name: "びbi",
+    message: "What is the romaji of び",
+  },
+  {
+    type: "input",
+    name: "ぶbu",
+    message: "What is the romaji of ぶ",
+  },
+  {
+    type: "input",
+    name: "べbe",
+    message: "What is the romaji of べ",
+  },
+  {
+    type: "input",
+    name: "ぼbo",
+    message: "What is the romaji of ぼ",
+  },
+  {
+    type: "input",
+    name: "ぱpa",
+    message: "What is the romaji of ぱ",
+  },
+  {
+    type: "input",
+    name: "ぴpi",
+    message: "What is the romaji of ぴ",
+  },
+  {
+    type: "input",
+    name: "ぷpu",
+    message: "What is the romaji of ぷ",
+  },
+  {
+    type: "input",
+    name: "ぺpe",
+    message: "What is the romaji of ぺ",
+  },
+  {
+    type: "input",
+    name: "ぽpo",
+    message: "What is the romaji of ぽ",
+  },
 ];
 
 export default hiragana;
