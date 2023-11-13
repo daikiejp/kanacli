@@ -354,6 +354,111 @@ const hiragana = [
     name: "ぽ,po",
     message: "What is the romaji of ぽ",
   },
+  {
+    type: "input",
+    name: "きゃ,kya",
+    message: "What is the romaji of きゃ",
+  },
+  {
+    type: "input",
+    name: "きゅ,kyu",
+    message: "What is the romaji of きゅ",
+  },
+  {
+    type: "input",
+    name: "きょ,kyo",
+    message: "What is the romaji of きょ",
+  },
+  {
+    type: "input",
+    name: "しゃ,sha",
+    message: "What is the romaji of しゃ",
+  },
+  {
+    type: "input",
+    name: "しゅ,shu",
+    message: "What is the romaji of しゅ",
+  },
+  {
+    type: "input",
+    name: "しょ,sho",
+    message: "What is the romaji of しょ",
+  },
+  {
+    type: "input",
+    name: "ちゃ,cha",
+    message: "What is the romaji of ちゃ",
+  },
+  {
+    type: "input",
+    name: "ちゅ,chu",
+    message: "What is the romaji of ちゅ",
+  },
+  {
+    type: "input",
+    name: "ちょ,cho",
+    message: "What is the romaji of ちょ",
+  },
+  {
+    type: "input",
+    name: "にゃ,nya",
+    message: "What is the romaji of にゃ",
+  },
+  {
+    type: "input",
+    name: "にゅ,nyu",
+    message: "What is the romaji of にゅ",
+  },
+  {
+    type: "input",
+    name: "にょ,nyo",
+    message: "What is the romaji of にょ",
+  },
+  {
+    type: "input",
+    name: "ひゃ,hya",
+    message: "What is the romaji of ひゃ",
+  },
+  {
+    type: "input",
+    name: "ひゅ,hyu",
+    message: "What is the romaji of ひゅ",
+  },
+  {
+    type: "input",
+    name: "ひょ,hyo",
+    message: "What is the romaji of ひょ",
+  },
+  {
+    type: "input",
+    name: "みゃ,mya",
+    message: "What is the romaji of みゃ",
+  },
+  {
+    type: "input",
+    name: "みゅ,myu",
+    message: "What is the romaji of みゅ",
+  },
+  {
+    type: "input",
+    name: "みょ,myo",
+    message: "What is the romaji of みょ",
+  },
+  {
+    type: "input",
+    name: "りゃ,rya",
+    message: "What is the romaji of りゃ",
+  },
+  {
+    type: "input",
+    name: "りゅ,ryu",
+    message: "What is the romaji of りゅ",
+  },
+  {
+    type: "input",
+    name: "りょ,ryo",
+    message: "What is the romaji of りょ",
+  },
 ];
 
 export default hiragana;
