@@ -80,7 +80,7 @@ function ask() {
           "Hiragana:",
           arr[0] + "( " + arr[1],
           arr[2] ? ", " + arr[2] + " )" : ")",
-          "You picked:",
+          "- You picked:",
           answers[key]
         );
       }
