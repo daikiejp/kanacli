@@ -67,7 +67,9 @@ function ask() {
       var evaluate = "";
       var score = 0;
       for (let key in answers) {
-        if (key.slice(1) == answers[key]) {
+        let arr = key.split(",");
+
+        if (arr[1] === answers[key] || arr[2] === answers[key]) {
           score++;
           evaluate = "✅";
         } else {
@@ -76,7 +78,8 @@ function ask() {
         console.log(
           evaluate,
           "Hiragana:",
-          key.slice(0, 1) + "(" + key.slice(1) + ")",
+          arr[0] + "( " + arr[1],
+          arr[2] ? ", " + arr[2] + " )" : ")",
           "You picked:",
           answers[key]
         );
