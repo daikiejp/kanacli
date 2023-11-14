@@ -41,7 +41,7 @@ const startQuestions = [
       { name: "25 Modified Kana", value: { start: 46, end: 71, number: 25 } },
       {
         name: "33 Compounds Kana",
-        value: { start: 71, end: 103, number: 103 },
+        value: { start: 71, end: 104, number: 33 },
       },
       { name: "46 Basic Kana + 25 Modified Kana", value: 0 },
       // { name: "18 Unique Compounds Katakana", value: 0 },

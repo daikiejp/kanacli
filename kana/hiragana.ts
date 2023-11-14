@@ -459,6 +459,66 @@ const hiragana = [
     name: "りょ,ryo",
     message: "What is the romaji of りょ",
   },
+  {
+    type: "input",
+    name: "ぎゃ,gya",
+    message: "What is the romaji of ぎゃ",
+  },
+  {
+    type: "input",
+    name: "ぎゅ,gyu",
+    message: "What is the romaji of ぎゅ",
+  },
+  {
+    type: "input",
+    name: "ぎょ,gyo",
+    message: "What is the romaji of ぎょ",
+  },
+  {
+    type: "input",
+    name: "じゃ,ja",
+    message: "What is the romaji of じゃ",
+  },
+  {
+    type: "input",
+    name: "じゅ,ju",
+    message: "What is the romaji of じゅ",
+  },
+  {
+    type: "input",
+    name: "じょ,jo",
+    message: "What is the romaji of じょ",
+  },
+  {
+    type: "input",
+    name: "びゃ,bya",
+    message: "What is the romaji of びゃ",
+  },
+  {
+    type: "input",
+    name: "びゅ,byu",
+    message: "What is the romaji of びゅ",
+  },
+  {
+    type: "input",
+    name: "びょ,byo",
+    message: "What is the romaji of びょ",
+  },
+  {
+    type: "input",
+    name: "ぴゃ,pya",
+    message: "What is the romaji of ぴゃ",
+  },
+  {
+    type: "input",
+    name: "ぴゅ,pyu",
+    message: "What is the romaji of ぴゅ",
+  },
+  {
+    type: "input",
+    name: "ぴょ,pyo",
+    message: "What is the romaji of ぴょ",
+  },
 ];
 
 export default hiragana;
