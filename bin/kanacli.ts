@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
 import hiragana from "../kana/hiragana.js";
+import katakana from "../kana/katakana.js";
 
 console.log("\n 🌸 === Welcome to KanaCli === ⛩️");
 
@@ -25,7 +26,7 @@ const startQuestions = [
     message: "What kana will you learn?",
     choices: [
       { name: "Hiragana", value: hiragana },
-      //   { name: "Katakana", value: katakana },
+      { name: "Katakana", value: katakana },
     ],
     default: "hiragana",
   },
@@ -34,7 +35,7 @@ const startQuestions = [
     name: "kanaRange",
     message: "How much kana will you learn?",
     choices: [
-      { name: "5 Basic Kana", value: { start: 0, end: 46, number: 5 } },
+      // { name: "5 Basic Kana", value: { start: 0, end: 46, number: 5 } },
       { name: "10 Basic Kana", value: { start: 0, end: 46, number: 10 } },
       { name: "20 Basic Kana", value: { start: 0, end: 46, number: 20 } },
       { name: "46 Basic Kana (Recommended)", value: { start: 0, end: 46 } },
@@ -82,7 +83,7 @@ function ask() {
         }
         console.log(
           evaluate,
-          "Hiragana:",
+          "Kana:",
           arr[0] + "( " + arr[1],
           arr[2] ? ", " + arr[2] + " )" : ")",
           "- You picked:",
