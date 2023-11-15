@@ -291,8 +291,8 @@ const hiragana = [
   },
   {
     type: "input",
-    name: "ズ,zu",
-    message: "What is the romaji of ズ",
+    name: "ヅ,zu",
+    message: "What is the romaji of ヅ",
   },
   {
     type: "input",
