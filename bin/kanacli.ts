@@ -48,7 +48,7 @@ const startQuestions = [
         value: { start: 0, end: 71, number: 71 },
       },
       // { name: "18 Unique Compounds Katakana", value: 0 },
-      { name: "106 Full Kana (Hardcore)", value: { start: 0, end: 106 } },
+      { name: "104 Full Kana (Hardcore)", value: { start: 0, end: 104 } },
     ],
     default: "5",
   },
