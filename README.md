@@ -22,7 +22,7 @@ We are currently updating. Stay tuned.
 
 ## Latest version:
 
-v0.2.1 (alpha version)
+v1.0.0 (stable version)
 
 ## Author
 
