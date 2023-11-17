@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+## Minor changes
+
+- Fixed Kana: し (shi)
+
 ## 1.0.0
 
 ### Major Update

@@ -56,7 +56,7 @@ const hiragana = [
   },
   {
     type: "input",
-    name: "シ,si",
+    name: "シ,shi",
     message: "What is the romaji of シ?",
   },
   {
