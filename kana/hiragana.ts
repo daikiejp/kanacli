@@ -136,7 +136,7 @@ const hiragana = [
   },
   {
     type: "input",
-    name: "ふ,hu,fu",
+    name: "ふ,fu,hu",
     message: "What is the romaji of ふ?",
   },
   {
@@ -221,7 +221,7 @@ const hiragana = [
   },
   {
     type: "input",
-    name: "を,wo",
+    name: "を,o,wo",
     message: "What is the romaji of を?",
   },
   {
@@ -286,7 +286,7 @@ const hiragana = [
   },
   {
     type: "input",
-    name: "ぢ,di",
+    name: "ぢ,ji,di",
     message: "What is the romaji of ぢ",
   },
   {
