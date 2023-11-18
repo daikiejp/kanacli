@@ -18,11 +18,11 @@ npx kanacli@latest
 
 ## Status
 
-We are currently updating. Stay tuned.
+Stable version
 
 ## Latest version:
 
-v1.0.1 (stable version)
+v1.0.2 (stable version)
 
 ## Author
 

@@ -1,10 +1,16 @@
 # Changelog
 
+## 1.0.2
+
+## Minor changes
+
+- [Fixed] Kana: ふ、を、ぢ
+
 ## 1.0.1
 
 ## Minor changes
 
-- Fixed Kana: し (shi)
+- [Fixed] Kana: し (shi)
 
 ## 1.0.0
 
